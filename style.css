@@ -1,0 +1,26 @@
+rect:hover {
+    fill: blueviolet;
+
+}#image {
+    position: fixed;
+    left: 480px;
+    top: 140px;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+#chart {
+    position: fixed;
+    left: 480px;
+    top: 200px;
+    font-size: 14px;
+}
+.labels {
+    font-family: 'Times New Roman', serif;
+}
+.labelHeading {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
