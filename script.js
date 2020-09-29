@@ -67,7 +67,7 @@ d3.csv('buildings.csv', d3.autoType).then(data=>{
         return (i * 31) + 50;
     })
     .on("click", function(data, d){
-      document.querySelector('#picture').innerHTML =  "<img src= d.image + "\">";
+      document.querySelector('#picture').innerHTML =  "<img src=\"/img/"  + d.image + "\">";
       document.querySelector('#buildingName').innerHTML = d.building;
       document.querySelector('#country').innerHTML = 'Country: ' + d.country;
       document.querySelector('#city').innerHTML = 'City: ' + d.city;
